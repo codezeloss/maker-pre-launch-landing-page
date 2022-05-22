@@ -1,5 +1,5 @@
 .footer {
-  height: 228px;
+  height: 268px;
   padding-top: 52px;
   padding-bottom: 42px;
   margin-bottom: 117px;
@@ -26,8 +26,9 @@
   font-size: 15px;
   width: 320px;
   height: 48px;
-  border: none;
   background: #093f68;
+  color: #ffff;
+  border: none;
   border-radius: 24px;
   padding: 18px;
 }
@@ -50,7 +51,26 @@
   cursor: pointer;
 }
 
+.btn:hover {
+  background-color: #080c20;
+  border: 2px solid #3ee9e5;
+  color: #fff;
+}
+
 .heading-secondary--2 {
   font-size: 32px;
   margin-bottom: 42px;
+}
+
+.error-message {
+  font-family: "Manrope", sans-serif;
+  /* display: none; */
+  color: #ff2965;
+  font-size: 12px;
+  margin-top: 0.8rem;
+  margin-right: 19rem;
+}
+
+.hidden {
+  display: none;
 }

@@ -230,7 +230,8 @@
       <h2 class="heading-secondary heading-secondary--2">
         Get notified when we launch
       </h2>
-      <div class="input-box">
+
+      <form class="input-box" id="form">
         <input
           class="email-input"
           type="email"
@@ -239,7 +240,11 @@
           required
         />
         <button class="btn" type="button">Get notified</button>
-      </div>
+      </form>
+
+      <p class="hidden error-message">
+        Oops! That doesn’t look like an email address
+      </p>
     </footer>
   </body>
 </html>
