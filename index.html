@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/hero.css" />
     <link rel="stylesheet" href="css/details.css" />
     <link rel="stylesheet" href="css/pricing.css" />
+    <link rel="stylesheet" href="css/footer.css" />
     <script defer src="js/script.js"></script>
     <title>Maker pre-launch</title>
   </head>
@@ -35,7 +36,7 @@
           src="assets/illustration-hero-left.svg"
           alt="illustration"
         />
-        <div class="text-ct">
+        <div class="text-ct bg-img">
           <h1 class="heading-primary">
             Get paid for the work<br />
             you <em>love</em> to do.
@@ -63,11 +64,13 @@
       <!-- details section -->
       <section class="details-section flex-rw">
         <div class="detail-box flex-cl">
-          <img
-            class="detail-box-icon egg-icon"
-            src="assets/illustration-passions.svg"
-            alt="passion illustration"
-          />
+          <div class="bkg-icon">
+            <img
+              class="detail-box-icon egg-icon"
+              src="assets/illustration-passions.svg"
+              alt="passion illustration"
+            />
+          </div>
           <span class="detail-title">Indulge your passions</span>
           <p class="paragraph">
             Your passions shouldn't be just for the weekend. Earn a living doing
@@ -75,11 +78,13 @@
           </p>
         </div>
         <div class="detail-box flex-cl">
-          <img
-            class="detail-box-icon books-icon"
-            src="assets/illustration-financial-freedom.svg"
-            alt="financial freedom illustration"
-          />
+          <div class="bkg-icon bkg-icon-unq">
+            <img
+              class="detail-box-icon books-icon"
+              src="assets/illustration-financial-freedom.svg"
+              alt="financial freedom illustration"
+            />
+          </div>
           <span class="detail-title">Gain financial freedom</span>
           <p class="paragraph">
             Start making money work for you. There’s nothing quite like earning
@@ -87,11 +92,14 @@
           </p>
         </div>
         <div class="detail-box flex-cl">
-          <img
-            class="detail-box-icon glass-icon"
-            src="assets/illustration-lifestyle.svg"
-            alt="lifestyle illustration"
-          />
+          <div class="bkg-icon">
+            <img
+              class="detail-box-icon glass-icon"
+              src="assets/illustration-lifestyle.svg"
+              alt="lifestyle illustration"
+            />
+          </div>
+
           <span class="detail-title">Choose your lifestyle</span>
           <p class="paragraph">
             Own your daily schedule. Fancy a lie-in? Go for it! Take charge of
@@ -99,11 +107,14 @@
           </p>
         </div>
         <div class="detail-box flex-cl">
-          <img
-            class="detail-box-icon car-icon"
-            src="assets/illustration-work-anywhere.svg"
-            alt="work from anywhere illustration"
-          />
+          <div class="bkg-icon bkg-icon-unq">
+            <img
+              class="detail-box-icon car-icon"
+              src="assets/illustration-work-anywhere.svg"
+              alt="work from anywhere illustration"
+            />
+          </div>
+
           <span class="detail-title">Work from anywhere</span>
           <p class="paragraph">
             Selling online means not being pinned down. Want to work AND travel?
@@ -114,7 +125,7 @@
 
       <section class="pricing-section">
         <div class="pricing-header text-ct">
-          <h2 class="heading-secondary">Our pricing plans</h2>
+          <h2 class="heading-secondary--1">Our pricing plans</h2>
           <p class="paragraph pricing-prg">
             We only make money when our creators make money. Our plans are
             always affordable, and it’s completely free to get started.
@@ -123,45 +134,111 @@
 
         <div class="pricing-cards">
           <div class="free-plan-card">
+            <img class="free-icon" src="assets/icon-free.svg" alt="icon" />
             <span class="card-title">Dip your toe</span>
-            <p class="paragraph pricing-card-prg">
+            <p class="paragraph pricing-card-prg pricing-card-prg-light">
               Just getting started? No problem at all! Our free plan will take
               you a long way.
             </p>
             <span class="price">Free</span>
             <ul class="ul">
-              <li>Unlimited products</li>
-              <li>Basic analytics</li>
-              <li>Limited marketplace exposure</li>
-              <li>10% fee per transaction</li>
+              <li>
+                <img
+                  class="checkmark-icon"
+                  src="assets/checkmark-icon.svg"
+                  alt="chechmark-icon"
+                />
+                Unlimited products
+              </li>
+              <li>
+                <img
+                  class="checkmark-icon"
+                  src="assets/checkmark-icon.svg"
+                  alt="chechmark-icon"
+                />
+                Basic analytics
+              </li>
+              <li>
+                <img
+                  class="checkmark-icon"
+                  src="assets/checkmark-icon.svg"
+                  alt="chechmark-icon"
+                />
+                Limited marketplace exposure
+              </li>
+              <li>
+                <img
+                  class="checkmark-icon"
+                  src="assets/checkmark-icon.svg"
+                  alt="chechmark-icon"
+                />
+                10% fee per transaction
+              </li>
             </ul>
           </div>
           <div class="paid-plan-card">
+            <img class="paid-icon" src="assets/icon-paid.svg" alt="icon" />
             <span class="card-title">Dive right in</span>
-            <p class="paragraph pricing-card-prg">
+            <p class="paragraph pricing-card-prg pricing-card-prg-dark">
               Ready for the big time? Our paid plan will help you take your
               business to the next level.
             </p>
-            <div>
+            <div class="align-center">
               <span class="price">$25.00</span>
-              <span>/ month</span>
+              <span class="price-sub">/ month</span>
             </div>
             <ul class="ul">
-              <li>Custom domain</li>
-              <li>Advanced analytics and reports</li>
-              <li>High marketplace visibility</li>
-              <li>5% fee per transaction</li>
+              <li>
+                <img
+                  class="checkmark-icon"
+                  src="assets/checkmark-icon-dark.svg"
+                  alt="chechmark-icon"
+                />
+                Custom domain
+              </li>
+              <li>
+                <img
+                  class="checkmark-icon"
+                  src="assets/checkmark-icon-dark.svg"
+                  alt="chechmark-icon"
+                />
+                Advanced analytics and reports
+              </li>
+              <li>
+                <img
+                  class="checkmark-icon"
+                  src="assets/checkmark-icon-dark.svg"
+                  alt="chechmark-icon"
+                />
+                High marketplace visibility
+              </li>
+              <li>
+                <img
+                  class="checkmark-icon"
+                  src="assets/checkmark-icon-dark.svg"
+                  alt="chechmark-icon"
+                />
+                5% fee per transaction
+              </li>
             </ul>
           </div>
         </div>
       </section>
     </main>
 
-    <footer>
-      <h2>Get notified when we launch</h2>
-      <div>
-        <input type="email" id="email" placeholder="Email address" required />
-        <button type="button">Get notified</button>
+    <footer class="footer">
+      <h2 class="heading-secondary heading-secondary--2">
+        Get notified when we launch
+      </h2>
+      <div class="input-box">
+        <input
+          class="email-input"
+          type="email"
+          id="email"
+          placeholder="Email address"
+          required
+        />
+        <button class="btn" type="button">Get notified</button>
       </div>
     </footer>
   </body>

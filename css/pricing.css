@@ -3,7 +3,7 @@
   flex-direction: column;
 }
 
-.heading-secondary {
+.heading-secondary--1 {
   font-size: 32px;
   margin-bottom: 24px;
 }
@@ -28,6 +28,7 @@
   color: #ffff;
   padding: 38px;
   border-radius: 8px;
+  position: relative;
 
   display: flex;
   flex-direction: column;
@@ -41,6 +42,7 @@
   color: #080c20;
   padding: 38px;
   border-radius: 8px;
+  position: relative;
 
   display: flex;
   flex-direction: column;
@@ -56,10 +58,23 @@
   margin-top: 19px;
   margin-bottom: 24px;
 }
+.pricing-card-prg-light {
+  color: #ffff;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+.pricing-card-prg-dark {
+  color: #080c20;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
 
 .price {
   font-size: 40px;
   font-weight: bold;
+}
+.price-sub {
+  font-size: 15px;
 }
 
 .ul {
@@ -69,4 +84,24 @@
   gap: 12px;
   font-size: 15px;
   margin-top: 19px;
+}
+
+.checkmark-icon {
+  width: 11.36px;
+  height: 8.1px;
+  margin-right: 9px;
+}
+
+.free-icon {
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  top: -2.29rem;
+}
+
+.paid-icon {
+  width: 51px;
+  height: 65px;
+  position: absolute;
+  top: -3.29rem;
 }

@@ -9,7 +9,7 @@
 }
 
 .detail-box-icon {
-  margin-bottom: 48px;
+  /* margin-bottom: 48px; */
 }
 
 .detail-title {
@@ -38,4 +38,20 @@
 .car-icon {
   width: 104px;
   height: 74px;
+}
+
+.bkg-icon {
+  width: 160px;
+  height: 164px;
+  background: #093f68;
+  border-radius: 45px;
+  margin-bottom: 48px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bkg-icon-unq {
+  margin-top: 48px;
 }
