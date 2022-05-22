@@ -1,0 +1,22 @@
+.details-section {
+  gap: 30px;
+  margin: 0 auto;
+  margin-bottom: 202px;
+}
+
+.detail-box {
+  width: 255px;
+}
+
+.detail-box-icon {
+  width: 88px;
+  height: 106px;
+  margin-bottom: 48px;
+}
+
+.detail-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffff;
+  margin-bottom: 23px;
+}
