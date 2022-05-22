@@ -1,0 +1,72 @@
+.pricing-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-secondary {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.pricing-prg {
+  width: 540px;
+  margin-bottom: 72px;
+}
+
+.pricing-cards {
+  max-width: 920px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+
+.free-plan-card {
+  width: 445px;
+  height: 425px;
+  background-color: #093f68;
+  color: #ffff;
+  padding: 38px;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.paid-plan-card {
+  width: 445px;
+  height: 449px;
+  background-color: #3ee9e5;
+  color: #080c20;
+  padding: 38px;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.pricing-card-prg {
+  margin-top: 19px;
+  margin-bottom: 24px;
+}
+
+.price {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 15px;
+  margin-top: 19px;
+}

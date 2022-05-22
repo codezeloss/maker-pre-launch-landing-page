@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/hero.css" />
     <link rel="stylesheet" href="css/details.css" />
+    <link rel="stylesheet" href="css/pricing.css" />
     <script defer src="js/script.js"></script>
     <title>Maker pre-launch</title>
   </head>
@@ -44,7 +45,11 @@
             own terms. Whether you’re looking to escape the rat race or set up a
             side hustle, we’ve got you covered.
           </p>
-          <img src="assets/icon-scroll.svg" alt="scroll icon" />
+          <img
+            class="scroll-icon"
+            src="assets/icon-scroll.svg"
+            alt="scroll icon"
+          />
         </div>
         <img
           class="hero-illus-img"
@@ -59,7 +64,7 @@
       <section class="details-section flex-rw">
         <div class="detail-box flex-cl">
           <img
-            class="detail-box-icon"
+            class="detail-box-icon egg-icon"
             src="assets/illustration-passions.svg"
             alt="passion illustration"
           />
@@ -71,7 +76,7 @@
         </div>
         <div class="detail-box flex-cl">
           <img
-            class="detail-box-icon"
+            class="detail-box-icon books-icon"
             src="assets/illustration-financial-freedom.svg"
             alt="financial freedom illustration"
           />
@@ -83,7 +88,7 @@
         </div>
         <div class="detail-box flex-cl">
           <img
-            class="detail-box-icon"
+            class="detail-box-icon glass-icon"
             src="assets/illustration-lifestyle.svg"
             alt="lifestyle illustration"
           />
@@ -95,7 +100,7 @@
         </div>
         <div class="detail-box flex-cl">
           <img
-            class="detail-box-icon"
+            class="detail-box-icon car-icon"
             src="assets/illustration-work-anywhere.svg"
             alt="work from anywhere illustration"
           />
@@ -108,40 +113,40 @@
       </section>
 
       <section class="pricing-section">
-        <div>
-          <h2 class="secondary-section">Our pricing plans</h2>
-          <p class="paragraph">
+        <div class="pricing-header text-ct">
+          <h2 class="heading-secondary">Our pricing plans</h2>
+          <p class="paragraph pricing-prg">
             We only make money when our creators make money. Our plans are
             always affordable, and it’s completely free to get started.
           </p>
         </div>
 
-        <div class="pricing-cards flex-rw">
-          <div class="card">
-            <span>Dip your toe</span>
-            <p class="paragraph">
+        <div class="pricing-cards">
+          <div class="free-plan-card">
+            <span class="card-title">Dip your toe</span>
+            <p class="paragraph pricing-card-prg">
               Just getting started? No problem at all! Our free plan will take
               you a long way.
             </p>
-            <span>Free</span>
-            <ul>
+            <span class="price">Free</span>
+            <ul class="ul">
               <li>Unlimited products</li>
               <li>Basic analytics</li>
               <li>Limited marketplace exposure</li>
               <li>10% fee per transaction</li>
             </ul>
           </div>
-          <div class="card">
-            <span>Dive right in</span>
-            <p class="paragraph">
+          <div class="paid-plan-card">
+            <span class="card-title">Dive right in</span>
+            <p class="paragraph pricing-card-prg">
               Ready for the big time? Our paid plan will help you take your
               business to the next level.
             </p>
             <div>
-              <span>$25.00</span>
+              <span class="price">$25.00</span>
               <span>/ month</span>
             </div>
-            <ul>
+            <ul class="ul">
               <li>Custom domain</li>
               <li>Advanced analytics and reports</li>
               <li>High marketplace visibility</li>

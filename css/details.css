@@ -9,8 +9,6 @@
 }
 
 .detail-box-icon {
-  width: 88px;
-  height: 106px;
   margin-bottom: 48px;
 }
 
@@ -19,4 +17,25 @@
   font-weight: bold;
   color: #ffff;
   margin-bottom: 23px;
+}
+
+/* icons size */
+.egg-icon {
+  width: 88px;
+  height: 106px;
+}
+
+.books-icon {
+  width: 74px;
+  height: 89px;
+}
+
+.glass-icon {
+  width: 80px;
+  height: 94px;
+}
+
+.car-icon {
+  width: 104px;
+  height: 74px;
 }

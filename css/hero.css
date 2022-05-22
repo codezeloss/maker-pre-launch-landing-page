@@ -1,16 +1,16 @@
 .hero {
-  width: 100%;
+  max-width: 100%;
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  gap: 10px;
-  justify-content: center;
-  align-items: center;
+  grid-template-columns: 1fr 3fr 1fr;
+  gap: 6rem;
   margin: 0 auto;
+  margin-bottom: 270px;
 }
 
 .hero-illus-img  {
   width: 408px;
   height: 459px;
+  position: fixed;
 }
 
 .text-ct {
@@ -24,4 +24,9 @@
 .hero-paragraph {
   width: 540px;
   margin-bottom: 64px;
+}
+
+.scroll-icon {
+  width: 26px;
+  height: 42px;
 }
