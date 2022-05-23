@@ -144,3 +144,66 @@
     min-height: 124px;
   }
 }
+
+@media only screen and (max-width: 632px) {
+  .detail-box {
+    flex-direction: column;
+    margin-left: 0rem;
+    gap: 32px;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .detail-title {
+    margin-bottom: 11px;
+  }
+
+  .detail-prg {
+    width: 327px;
+  }
+
+  .details-section {
+    gap: 56px;
+  }
+
+  .pricing-prg {
+    width: 327px;
+  }
+
+  .free-plan-card {
+    width: 327px;
+  }
+
+  .paid-plan-card {
+    width: 327px;
+  }
+
+  .heading-secondary--2 {
+    width: 328px;
+    text-align: center;
+    margin-bottom: 31px;
+  }
+
+  .input-box {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .bg-img {
+    background-size: contain;
+  }
+
+  .footer {
+    background-size: contain;
+  }
+
+  .main {
+    margin-bottom: 144px;
+  }
+}

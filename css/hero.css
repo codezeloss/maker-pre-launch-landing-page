@@ -40,4 +40,5 @@
   margin-right: auto;
   background-image: url('/assets/bg-hero-squiggle.svg');
   background-repeat: no-repeat;
+  background-size: contain;
 }
