@@ -47,8 +47,8 @@
 }
 
 .bkg-icon {
-  width: 160px;
-  height: 164px;
+  min-width: 160px;
+  min-height: 164px;
   background: #093f68;
   border-radius: 45px;
   margin-bottom: 48px;

@@ -13,8 +13,8 @@
   }
 
   .bkg-icon {
-    min-width: 160px;
-    min-height: 164px;
+    /* min-width: 160px;
+    min-height: 164px; */
     margin-bottom: 0rem;
     margin-top: 0rem;
   }
@@ -34,5 +34,113 @@
 
   .main {
     margin-bottom: 119px;
+  }
+}
+
+@media only screen and (max-width: 972px) {
+  .heading-primary {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .hero-paragraph {
+    width: 457px;
+    margin-bottom: 32px;
+  }
+
+  .pricing-section {
+    padding: 1.8rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+
+  .pricing-cards {
+    flex-direction: column;
+    gap: 65px;
+  }
+
+  .hero {
+    gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 47.5px;
+  }
+
+  .hero-illus-img-1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .hero-illus-img-2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .bg-img {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .hero-illus-img-1 {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .hero-illus-img-2 {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .header {
+    padding: 0rem;
+  }
+
+  .nav {
+    padding: 1.8rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 65.5px;
+  }
+
+  .main {
+    padding: 1.8rem;
+  }
+
+  .footer {
+    padding: 1.8rem;
+  }
+
+  .egg-icon {
+    width: 66px;
+    height: 80px;
+  }
+
+  .books-icon {
+    width: 56px;
+    height: 67px;
+  }
+
+  .glass-icon {
+    width: 60px;
+    height: 71px;
+  }
+
+  .car-icon {
+    width: 78px;
+    height: 56px;
+  }
+
+  .bkg-icon {
+    min-width: 120px;
+    min-height: 124px;
   }
 }
