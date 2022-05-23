@@ -206,4 +206,26 @@
   .main {
     margin-bottom: 144px;
   }
+
+  .heading-primary {
+    width: 327px;
+  }
+
+  .hero-paragraph {
+    width: 327px;
+  }
+
+  .bg-img {
+    padding: 1.8rem;
+  }
+
+  .detail-box {
+    padding: 1.8rem;
+    width: 100%;
+  }
+
+  .details-section {
+    margin-right: 0rem;
+    margin-left: 0rem;
+  }
 }
