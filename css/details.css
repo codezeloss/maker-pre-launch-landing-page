@@ -2,10 +2,15 @@
   gap: 30px;
   margin: 0 auto;
   margin-bottom: 202px;
+
+  display: flex;
+  flex-direction: row;
 }
 
 .detail-box {
   width: 255px;
+  display: flex;
+  flex-direction: column;
 }
 
 .detail-box-icon {
@@ -13,6 +18,7 @@
 }
 
 .detail-title {
+  display: block;
   font-size: 18px;
   font-weight: bold;
   color: #ffff;

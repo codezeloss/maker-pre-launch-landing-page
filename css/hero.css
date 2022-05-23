@@ -4,7 +4,7 @@
   grid-template-columns: 1fr 3fr 1fr;
   gap: 9rem;
   margin: 0 auto;
-  margin-bottom: 270px;
+  /* margin-bottom: 202px; */
 
   justify-content: center;
   align-items: center;
@@ -38,6 +38,6 @@
   /* width: 544px; */
   margin-left: auto;
   margin-right: auto;
-  background-image: url("/assets/bg-hero-squiggle.svg");
+  background-image: url('/assets/bg-hero-squiggle.svg');
   background-repeat: no-repeat;
 }
