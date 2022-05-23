@@ -60,3 +60,336 @@ em {
   margin-bottom: 151px;
   padding: 3rem;
 }
+
+/* //////////////////////////// */
+/* GENRAL */
+.flex-cl {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-rw {
+  display: flex;
+  flex-direction: row;
+}
+
+.align-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7.5px;
+}
+/* //////////////////////////// */
+/* HERO */
+.hero {
+  max-width: 1280px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 9rem;
+  margin: 0 auto;
+  /* margin-bottom: 202px; */
+
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-illus-img  {
+  width: 408px;
+  height: 459px;
+}
+
+.text-ct {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-paragraph {
+  width: 540px;
+  margin-bottom: 64px;
+}
+
+.scroll-icon {
+  width: 26px;
+  height: 42px;
+  cursor: pointer;
+}
+
+.bg-img {
+  /* width: 544px; */
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('/assets/bg-hero-squiggle.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* //////////////////////////// */
+/* DETAILS */
+.details-section {
+  gap: 30px;
+  margin: 0 auto;
+  margin-bottom: 202px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.detail-box {
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-box-icon {
+  /* margin-bottom: 48px; */
+}
+
+.detail-title {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffff;
+  margin-bottom: 23px;
+}
+
+/* icons size */
+.egg-icon {
+  width: 88px;
+  height: 106px;
+}
+
+.books-icon {
+  width: 74px;
+  height: 89px;
+}
+
+.glass-icon {
+  width: 80px;
+  height: 94px;
+}
+
+.car-icon {
+  width: 104px;
+  height: 74px;
+}
+
+.bkg-icon {
+  width: 160px;
+  height: 164px;
+  background: #093f68;
+  border-radius: 45px;
+  margin-bottom: 48px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bkg-icon-unq {
+  margin-top: 48px;
+}
+/* //////////////////////////// */
+
+/* //////////////////////////// */
+/* PRICING */
+.pricing-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-secondary--1 {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.pricing-prg {
+  width: 540px;
+  margin-bottom: 72px;
+}
+
+.pricing-cards {
+  max-width: 920px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+
+.free-plan-card {
+  width: 445px;
+  height: 425px;
+  background-color: #093f68;
+  color: #ffff;
+  padding: 38px;
+  border-radius: 8px;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.paid-plan-card {
+  width: 445px;
+  height: 449px;
+  background-color: #3ee9e5;
+  color: #080c20;
+  padding: 38px;
+  border-radius: 8px;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.pricing-card-prg {
+  margin-top: 19px;
+  margin-bottom: 24px;
+}
+.pricing-card-prg-light {
+  color: #ffff;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+.pricing-card-prg-dark {
+  color: #080c20;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+.price {
+  font-size: 40px;
+  font-weight: bold;
+}
+.price-sub {
+  font-size: 15px;
+}
+
+.ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 15px;
+  margin-top: 19px;
+}
+
+.checkmark-icon {
+  width: 11.36px;
+  height: 8.1px;
+  margin-right: 9px;
+}
+
+.free-icon {
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  top: -2.29rem;
+}
+
+.paid-icon {
+  width: 51px;
+  height: 65px;
+  position: absolute;
+  top: -3.29rem;
+}
+/* //////////////////////////// */
+
+/* //////////////////////////// */
+/* FOOTER */
+.footer {
+  height: 268px;
+  padding-top: 52px;
+  padding-bottom: 42px;
+  margin-bottom: 117px;
+  padding: 3rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url('/assets/bg-footer-squiggle.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.email-input {
+  font-family: 'Manrope', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  width: 320px;
+  height: 48px;
+  background: #093f68;
+  color: #ffff;
+  border: none;
+  border-radius: 24px;
+  padding: 18px;
+}
+
+.email-input ::placeholder {
+  background-color: #093f68;
+  color: #fff;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}
+
+.btn {
+  border: none;
+  color: #093f68;
+  width: 140px;
+  height: 48px;
+  background: #3ee9e5;
+  border-radius: 24px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #080c20;
+  border: 2px solid #3ee9e5;
+  color: #fff;
+}
+
+.heading-secondary--2 {
+  font-size: 32px;
+  margin-bottom: 42px;
+}
+
+.error-message {
+  font-family: 'Manrope', sans-serif;
+  /* display: none; */
+  color: #ff2965;
+  font-size: 12px;
+  margin-top: 0.8rem;
+  margin-right: 19rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.invalid-input {
+  border: 2px solid red;
+}
+
+.valid-input {
+  border: 2px solid greenyellow;
+}
+/* //////////////////////////// */

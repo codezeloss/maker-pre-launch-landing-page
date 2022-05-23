@@ -13,8 +13,8 @@
   }
 
   .bkg-icon {
-    /* min-width: 160px;
-    min-height: 164px; */
+    min-width: 160px;
+    min-height: 164px;
     margin-bottom: 0rem;
     margin-top: 0rem;
   }
@@ -140,8 +140,8 @@
   }
 
   .bkg-icon {
-    min-width: 120px;
-    min-height: 124px;
+    /* min-width: 120px;
+    min-height: 124px; */
   }
 }
 
